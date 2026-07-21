@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="237DA62F-B737-5EA6-FC98-48D5B3F2B893" name="USER">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>4E475BC2-B731-B207-4484-5CBC683B0293</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUser" id="0215E7BD-28C3-2948-E165-56BD15786993">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>E5509302-0D44-6256-3A12-50A376490DE4</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="873640E4-C433-2508-8ECE-9D5AC1F70150">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>51B4D5E3-6000-14BC-3628-EE3216AF05AF</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="24FD8F7C-0911-7755-073E-B1D5CF8B2909">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>58E926D8-1251-D035-D64B-26BAA43A4DA4</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="8E0A3FA3-4D85-0D98-679C-A7993D533187">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>58C2396B-5E85-55B7-08A0-6B7B003A78F1</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firstname" id="3906AC74-E460-607A-A03C-A2B9194FB8F0">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>D6E63976-C2E9-8759-E149-21A30A74D746</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="2D0625F8-4F09-87E3-28D5-CA24A919FB94">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>736A0C54-D6C7-C70D-97FF-87B76AFC2B49</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role" id="D5885EE8-D0EB-F571-5AEB-E2FF343B5188">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>0435047C-6860-6D15-665E-4CE29F00887D</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBD86FCB-96BB-3F82-B8F3-9BA03938AA43" name="USER_PK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>F992CA13-0D73-8E8D-8619-52F745721EEF</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0215E7BD-28C3-2948-E165-56BD15786993"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45ACF66B-2D02-A875-FBE5-E31FC187EB85" name="USER_email_UN">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>FBCC17B8-410C-7B47-EE49-44DD93747EFA</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="873640E4-C433-2508-8ECE-9D5AC1F70150"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

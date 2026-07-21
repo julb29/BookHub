@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C972B4F-873E-58F6-DA27-8AEFA1C46F42" name="MEMBER">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 07:51:34 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idMember" id="DC958505-099A-786F-CFDF-8728FA77357A">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:06:58 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="F98D39E0-CCEA-197C-CEA7-4EFA26669874">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:07:16 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C493B21-60CA-7BD8-1DA3-37473D9A872E" name="MEMBER PK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:07:15 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC958505-099A-786F-CFDF-8728FA77357A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="097AE8A3-0B66-7ED3-BFBC-199EB1A27638" name="Key_2">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:25:18 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="false"/>
+</engineerTo>
+<newElementsIDs>F98D39E0-CCEA-197C-CEA7-4EFA26669874</newElementsIDs>
+<usedAttributes>
+<attributeRef>F98D39E0-CCEA-197C-CEA7-4EFA26669874</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

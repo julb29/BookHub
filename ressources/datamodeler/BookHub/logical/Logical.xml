@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C4C3392E-99C6-D51E-ED2C-7E4D945506B9" mainViewID="95F887C3-BABC-9EA4-8A8C-385A2FD1BCAF">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 07:47:49 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

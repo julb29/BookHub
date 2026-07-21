@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B89D250-8BB4-57C3-149C-2157D2250FC0" name="OPINION">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>F6F0F38A-D357-1177-5D97-AD3E9A2FB53D</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idOpinion" id="FA16147B-8358-F065-DCED-750E0C3CB383">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>FF2432D4-279A-7244-DDF6-7C9EEE5B8743</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="score" id="B083A39E-9126-DD89-135D-924A09B3E404">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>EA148C95-9774-90DB-D790-19F36E36E6A3</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment" id="9BE7E8A5-DDA9-1378-61AF-1505545627BC">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>2FDD276F-EEB0-37A4-6BE3-EE44B9D7FEB5</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOK_idBook" id="92A37520-E5ED-BBEB-8396-6A33613007D9">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>4DD42C3E-3B6F-AC34-F411-A4AFF25C9D08</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78D5AA5D-DB32-8993-9170-B629AC175048" referredColumn="EBE9EC59-8A2E-D383-62B7-621DD4DCEDD0"/>
+</associations>
+</Column>
+<Column name="USER_idUser" id="E43D5E11-9612-138A-A5BB-AE97E72A59F0">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>9B7F3786-16CA-F119-B18B-F42B512875DE</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A8E90AF-6B6E-1170-3C03-BE89E3E65155" referredColumn="0215E7BD-28C3-2948-E165-56BD15786993"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC9874A3-F906-BD56-96B2-372A01A86747" name="OPINION_PK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>FC0069C3-E2B4-E43C-4F18-C3B99007D4FA</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA16147B-8358-F065-DCED-750E0C3CB383"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51C0E7A2-B997-E03B-BBC9-A656B7ADA5DA" name="OPINION_USER_FK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>DD6555C3-322C-135C-4EF0-E095127DBA36</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E43D5E11-9612-138A-A5BB-AE97E72A59F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF933494-A4F1-AA01-CBE6-05EFA34924D9" name="OPINION_BOOK_FK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>9AFAEAB3-670D-E00A-72D9-5EF0DB48A848</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92A37520-E5ED-BBEB-8396-6A33613007D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
