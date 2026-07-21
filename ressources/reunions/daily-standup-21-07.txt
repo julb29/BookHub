@@ -1,0 +1,18 @@
+- Julien a rédigé user stories additionnelles
+- Gurvan a élaboré le dico de données
+- Quentin a rempli l'analyse du Cahier des Charges (+ Moscow)
+
+- On a débuté les diagrammes use case
+
+Clarification du fonctionnement du système de réservation : liste d'attente et notification du premier du
+rang
+
+RESTE A FAIRE : DIAGRAMMES DE CLASSE, MCD/MLD/(MPD), DIAGRAMME FONCTIONNALITE Réservation, Wireframes
+A RENDRE EN FIN DE JOURNÉE
+
+DIAGRAMME DE CLASSE : QUENTIN
+MCD/MLD: GURVAN 
+DIAGRAMME FONCTIONNALITE RESERVATION : JULIEN
+WIREFRAMES : PARTAGÉ
+
+
