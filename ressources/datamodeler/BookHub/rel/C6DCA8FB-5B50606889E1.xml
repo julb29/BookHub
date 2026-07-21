@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" mainViewID="DD888128-061D-946B-E173-EA51E065CEFA">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 07:47:50 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD84B1EC-8BA6-7A74-22E6-7165F08E1CAE" name="RESERVATION">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>B4042236-BD05-29CA-23D2-3DA9F99F3C98</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idReservation" id="462E21CC-EC46-5976-61CE-3D3628718E4F">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>531535C7-C45C-53D3-C490-752E5B17ACDB</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rank" id="4B34D2B7-042F-BB40-9A98-84D9F2C04ADB">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>AC7450A8-8F89-9A34-7E18-FF8C228712D3</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="E3644000-BBC4-5F6B-FBA7-80B5CCA44D83">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>1D76BC9E-27DA-5962-91B6-425FD5B7A38A</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOK_idBook" id="D5B99E91-FF52-47E9-ED6A-FA917300F667">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>D58D10CD-1E4D-65DD-AAED-B51E39B59AD9</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="202DF79D-2A99-CD6D-6250-9F34A7F7DF4A" referredColumn="EBE9EC59-8A2E-D383-62B7-621DD4DCEDD0"/>
+</associations>
+</Column>
+<Column name="USER_idUser" id="1603EDE2-4934-CD64-982B-49E86A55633F">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>CD3213B8-453F-0F57-0937-A075246683C1</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE8C7559-2CEE-4676-5704-CFFD92EE762B" referredColumn="0215E7BD-28C3-2948-E165-56BD15786993"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D725941-EE76-51E3-FABA-DB06DF7684DC" name="RESERVATION_PK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>9F870D25-C819-42A5-DBFB-9772EA0C08DC</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="462E21CC-EC46-5976-61CE-3D3628718E4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF9811F4-5E85-E332-2485-9A55DFE31EC5" name="RESERVATION_BOOK_FK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>77BB9AD4-B881-FD9F-01A0-F75659915391</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5B99E91-FF52-47E9-ED6A-FA917300F667"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9220FC10-A638-01C4-0761-ECD6324E9EFB" name="RESERVATION_USER_FK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>EC8B3909-4E27-9414-80C3-863D40E93680</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1603EDE2-4934-CD64-982B-49E86A55633F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
