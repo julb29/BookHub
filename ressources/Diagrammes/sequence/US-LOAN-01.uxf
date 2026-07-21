@@ -15,8 +15,8 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>81</x>
-      <y>657</y>
+      <x>90</x>
+      <y>648</y>
       <w>72</w>
       <h>99</h>
     </coordinates>
@@ -26,7 +26,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
+      <x>279</x>
       <y>90</y>
       <w>27</w>
       <h>549</h>
@@ -37,7 +37,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>216</x>
+      <x>234</x>
       <y>54</y>
       <w>90</w>
       <h>27</h>
@@ -48,7 +48,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>360</x>
+      <x>378</x>
       <y>54</y>
       <w>90</w>
       <h>27</h>
@@ -59,7 +59,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
+      <x>414</x>
       <y>90</y>
       <w>27</w>
       <h>549</h>
@@ -202,7 +202,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>216</x>
+      <x>234</x>
       <y>639</y>
       <w>90</w>
       <h>27</h>
@@ -213,7 +213,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>360</x>
+      <x>378</x>
       <y>639</y>
       <w>90</w>
       <h>27</h>
@@ -301,68 +301,68 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
+      <x>117</x>
       <y>126</y>
-      <w>36</w>
+      <w>27</w>
       <h>513</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>20.0;10.0;10.0;550.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;550.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>117</x>
       <y>144</y>
+      <w>189</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Action sur bouton emprunter</panel_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>279</x>
+      <y>171</y>
       <w>162</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Saisir livre</panel_attributes>
+Vérifier session/jeton</panel_attributes>
     <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>171</y>
-      <w>171</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-Vérifier session/jeton</panel_attributes>
-    <additional_attributes>170.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>252</x>
+      <x>279</x>
       <y>207</y>
-      <w>171</w>
+      <w>162</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-
 Jeton valide
 </panel_attributes>
-    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
+      <x>279</x>
       <y>252</y>
-      <w>333</w>
+      <w>306</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 lendBook (idBook, dateLoan, idUser)</panel_attributes>
-    <additional_attributes>350.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>320.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>558</x>
-      <y>297</y>
+      <y>288</y>
       <w>351</w>
       <h>36</h>
     </coordinates>
@@ -374,7 +374,7 @@ checkAvailability (idBook, dateLoan)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>729</x>
-      <y>342</y>
+      <y>324</y>
       <w>369</w>
       <h>36</h>
     </coordinates>
@@ -386,7 +386,7 @@ findAvailableCopy (idBook)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>729</x>
-      <y>378</y>
+      <y>351</y>
       <w>369</w>
       <h>36</h>
     </coordinates>
@@ -398,7 +398,7 @@ copyId</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>558</x>
-      <y>423</y>
+      <y>396</y>
       <w>351</w>
       <h>36</h>
     </coordinates>
@@ -410,7 +410,7 @@ available (copyId)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>558</x>
-      <y>459</y>
+      <y>432</y>
       <w>720</w>
       <h>36</h>
     </coordinates>
@@ -421,8 +421,8 @@ registerLoan (idUser, idBook, dateLoan)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>558</x>
-      <y>495</y>
+      <x>549</x>
+      <y>468</y>
       <w>720</w>
       <h>36</h>
     </coordinates>
@@ -434,7 +434,7 @@ loanId</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>558</x>
-      <y>531</y>
+      <y>504</y>
       <w>981</w>
       <h>36</h>
     </coordinates>
@@ -446,7 +446,7 @@ sendConfirmationNotification(idUser, idLoan)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>558</x>
-      <y>558</y>
+      <y>531</y>
       <w>981</w>
       <h>36</h>
     </coordinates>
@@ -458,7 +458,7 @@ OK</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>252</x>
-      <y>576</y>
+      <y>558</y>
       <w>333</w>
       <h>36</h>
     </coordinates>
@@ -469,13 +469,13 @@ confirmation(idLoan)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>594</y>
-      <w>171</w>
+      <x>117</x>
+      <y>576</y>
+      <w>189</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 Réservation confirmée</panel_attributes>
-    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
   </element>
 </diagram>
