@@ -337,7 +337,7 @@ Vérifier session/jeton</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>279</x>
-      <y>207</y>
+      <y>198</y>
       <w>162</w>
       <h>45</h>
     </coordinates>
@@ -350,7 +350,7 @@ Jeton valide
     <id>Relation</id>
     <coordinates>
       <x>279</x>
-      <y>252</y>
+      <y>225</y>
       <w>306</w>
       <h>36</h>
     </coordinates>
@@ -362,7 +362,7 @@ lendBook (idBook, dateLoan, idUser)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>558</x>
-      <y>288</y>
+      <y>243</y>
       <w>351</w>
       <h>36</h>
     </coordinates>
@@ -374,7 +374,7 @@ checkAvailability (idBook, dateLoan)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>729</x>
-      <y>324</y>
+      <y>288</y>
       <w>369</w>
       <h>36</h>
     </coordinates>
@@ -386,7 +386,7 @@ findAvailableCopy (idBook)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>729</x>
-      <y>351</y>
+      <y>306</y>
       <w>369</w>
       <h>36</h>
     </coordinates>
@@ -398,7 +398,7 @@ copyId</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>558</x>
-      <y>396</y>
+      <y>333</y>
       <w>351</w>
       <h>36</h>
     </coordinates>
@@ -410,7 +410,7 @@ available (copyId)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>558</x>
-      <y>432</y>
+      <y>387</y>
       <w>720</w>
       <h>36</h>
     </coordinates>
@@ -422,7 +422,7 @@ registerLoan (idUser, idBook, dateLoan)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>549</x>
-      <y>468</y>
+      <y>405</y>
       <w>720</w>
       <h>36</h>
     </coordinates>
@@ -434,7 +434,7 @@ loanId</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>558</x>
-      <y>504</y>
+      <y>459</y>
       <w>981</w>
       <h>36</h>
     </coordinates>
@@ -446,7 +446,7 @@ sendConfirmationNotification(idUser, idLoan)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>558</x>
-      <y>531</y>
+      <y>477</y>
       <w>981</w>
       <h>36</h>
     </coordinates>
@@ -457,20 +457,20 @@ OK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>558</y>
-      <w>333</w>
+      <x>279</x>
+      <y>513</y>
+      <w>306</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 confirmation(idLoan)</panel_attributes>
-    <additional_attributes>10.0;20.0;350.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>117</x>
-      <y>576</y>
+      <y>558</y>
       <w>189</w>
       <h>36</h>
     </coordinates>
