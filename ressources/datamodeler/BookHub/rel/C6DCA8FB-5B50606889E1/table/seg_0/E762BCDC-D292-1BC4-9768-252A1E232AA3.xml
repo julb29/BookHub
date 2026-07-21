@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E762BCDC-D292-1BC4-9768-252A1E232AA3" name="MEMBER">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>9C972B4F-873E-58F6-DA27-8AEFA1C46F42</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMember" id="C00E3CFE-3478-0D18-6584-BAEC55D11770">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>DC958505-099A-786F-CFDF-8728FA77357A</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="E7F2B7D5-2A2B-5A09-70C1-FBE4DAA5917E">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>F98D39E0-CCEA-197C-CEA7-4EFA26669874</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3723319-1A6E-9272-A94B-C04F23EB96CA" name="MEMBER_PK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>6C493B21-60CA-7BD8-1DA3-37473D9A872E</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C00E3CFE-3478-0D18-6584-BAEC55D11770"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6F110E1-036E-4689-316D-56971D5DB9FE" name="MEMBER_email_UN">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>097AE8A3-0B66-7ED3-BFBC-199EB1A27638</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7F2B7D5-2A2B-5A09-70C1-FBE4DAA5917E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

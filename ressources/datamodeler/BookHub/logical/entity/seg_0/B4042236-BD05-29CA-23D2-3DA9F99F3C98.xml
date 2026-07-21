@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4042236-BD05-29CA-23D2-3DA9F99F3C98" name="RESERVATION">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 07:51:27 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idReservation" id="531535C7-C45C-53D3-C490-752E5B17ACDB">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:07:36 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rank" id="AC7450A8-8F89-9A34-7E18-FF8C228712D3">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:07:50 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="1D76BC9E-27DA-5962-91B6-425FD5B7A38A">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:08:10 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idBook" id="D58D10CD-1E4D-65DD-AAED-B51E39B59AD9">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:16:31 UTC</createdTime>
+<generatorID>77BB9AD4-B881-FD9F-01A0-F75659915391</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<referedAttribute>E436DAB7-255E-57F9-A0BB-DD21EE4AF5C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUser" id="CD3213B8-453F-0F57-0937-A075246683C1">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:16:41 UTC</createdTime>
+<generatorID>EC8B3909-4E27-9414-80C3-863D40E93680</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<referedAttribute>E5509302-0D44-6256-3A12-50A376490DE4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F870D25-C819-42A5-DBFB-9772EA0C08DC" name="RESERVATION PK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:07:49 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>531535C7-C45C-53D3-C490-752E5B17ACDB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

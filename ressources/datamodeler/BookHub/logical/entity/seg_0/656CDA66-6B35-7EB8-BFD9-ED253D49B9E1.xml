@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="656CDA66-6B35-7EB8-BFD9-ED253D49B9E1" name="LOAN">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 07:51:22 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idLoan" id="319B266B-A33B-F75E-5EEC-FC23217E8C9A">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:08:56 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dateLoan" id="92092144-D1B0-8582-E6FB-EC052D379C7F">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:09:06 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dateReturn" id="EB96B3A6-A0CA-1C6A-0B06-7B6EBADB36F2">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:09:23 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCopy" id="09C13CDE-F4B8-B9A9-8B0B-B71222E63273">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:15:40 UTC</createdTime>
+<generatorID>F601512E-6BEE-EE8D-8CAB-2A10C3E213FF</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<referedAttribute>B628E443-3EB5-0C79-BD32-DF63E64EAC93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUser" id="00756FA2-AD42-929F-C520-186ACC44E4C1">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:15:53 UTC</createdTime>
+<generatorID>C5CF090C-E792-DE50-4A88-E48E0F4899E9</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<referedAttribute>E5509302-0D44-6256-3A12-50A376490DE4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3E7E2FB-0C1B-F1BB-8E18-DFC898188E91" name="LOAN PK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:09:05 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>319B266B-A33B-F75E-5EEC-FC23217E8C9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

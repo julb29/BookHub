@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16809E54-B187-6BFE-9AB4-DCE08B55A45B" name="BOOK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>0F6A376A-96FB-4D0A-FC5A-6BFE26C8046F</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idBook" id="EBE9EC59-8A2E-D383-62B7-621DD4DCEDD0">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>E436DAB7-255E-57F9-A0BB-DD21EE4AF5C5</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isbn" id="BA5A3A88-6573-FD10-5004-763512121FE5">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>B6B25045-44D2-58B4-748F-D726EDC1B2A4</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="E7AACF3B-2442-BFF7-0E61-AA30B3F97DC3">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>8887EFA3-F70C-3473-8919-7C71DE92F067</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="C2330747-27A6-C45F-980B-DF55063D4C75">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>08CDD582-7FD1-8FCF-4AC5-ACB013113BA6</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cover" id="DE2A74CF-DAA4-9D3C-4A7A-EB4A5B792C13">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>3D15C151-651F-D1B1-5CAD-DE9CA40A039C</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="availability" id="D13766E6-C383-96B4-9A32-967179C6227A">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>9892F268-70E8-2344-AC37-B22DF6813E4E</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="scoreAvg" id="136FD3B8-45CF-0C43-16A1-02F904F36E61">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>70DB7EC6-95FE-93D6-5378-B8CE9D3BBA2F</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTHOR_idAuthor" id="1AF02887-1DA8-38D8-7EB0-FCD350F2DFEB">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>FC093D81-3984-78AB-7936-C7E92F840D6E</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A52C1E5-5DA9-BF49-9386-C7E5604B1F62" referredColumn="CBF6ED98-D2B2-BD2C-204D-13612E303029"/>
+</associations>
+</Column>
+<Column name="CATEGORY_idCategory" id="45AA03E5-E7DB-A2AE-B5F1-4FD36CCAA574">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>18850191-3536-F8A3-30F4-DD015FF1AADA</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="359941E1-015C-02B9-2C5C-D9FD6994EE40" referredColumn="A49164DB-2096-82DE-8475-4392D58C866C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3AC13AD-385C-FBD0-002A-59F7EC8F7F35" name="BOOK_PK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>5A58ABFF-40DE-02C8-C27B-A995481530DA</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBE9EC59-8A2E-D383-62B7-621DD4DCEDD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50D38C41-630F-ED60-1EB1-1EA9BEA01346" name="BOOK_isbn_UN">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>8B89365B-9F14-B988-0FCF-C6F295D86691</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA5A3A88-6573-FD10-5004-763512121FE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9959C163-5B7C-18FE-789E-3DBD57AF2A83" name="BOOK_AUTHOR_FK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>BDC1C9F0-A0A9-C232-6754-0CB00067CDCD</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AF02887-1DA8-38D8-7EB0-FCD350F2DFEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAB60539-6ECD-F4A8-216A-AEE4BA0A0A68" name="BOOK_CATEGORY_FK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>A4EF117E-AEEB-2412-37CD-2455639D95FC</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45AA03E5-E7DB-A2AE-B5F1-4FD36CCAA574"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

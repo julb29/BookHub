@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A919FE3-0432-21CD-B58F-5DF606B77169" name="LOAN">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>656CDA66-6B35-7EB8-BFD9-ED253D49B9E1</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idLoan" id="A186E2CA-2D8D-C726-21FB-5D52FF6B2B9C">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>319B266B-A33B-F75E-5EEC-FC23217E8C9A</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dateLoan" id="D5FCAD76-0745-4C2A-B4F7-31B2A9039B38">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>92092144-D1B0-8582-E6FB-EC052D379C7F</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dateReturn" id="C1B5C115-2579-BED8-B162-9DB95F9883A0">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>EB96B3A6-A0CA-1C6A-0B06-7B6EBADB36F2</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COPY_idCopy" id="807E3EF6-47FB-A747-94B0-4AD4383E92A0">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>09C13CDE-F4B8-B9A9-8B0B-B71222E63273</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DEBC978-9DA6-DC56-7034-732AB59ECEAE" referredColumn="72278798-1BA0-733D-E0C4-FEA327E513A2"/>
+</associations>
+</Column>
+<Column name="USER_idUser" id="3D04CD2D-9061-38CA-482A-D4CB4440083A">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>00756FA2-AD42-929F-C520-186ACC44E4C1</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8EC61A7-8135-E6E5-2226-ABE56C31A735" referredColumn="0215E7BD-28C3-2948-E165-56BD15786993"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="912D3FAD-005D-4279-591A-963EF3F96665" name="LOAN_PK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>C3E7E2FB-0C1B-F1BB-8E18-DFC898188E91</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A186E2CA-2D8D-C726-21FB-5D52FF6B2B9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94C07529-C37A-7AF5-B588-28A83198BDDD" name="LOAN_COPY_FK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>F601512E-6BEE-EE8D-8CAB-2A10C3E213FF</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="807E3EF6-47FB-A747-94B0-4AD4383E92A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD24FD7D-B28A-0D16-12A6-C4317EECA857" name="LOAN_USER_FK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>C5CF090C-E792-DE50-4A88-E48E0F4899E9</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D04CD2D-9061-38CA-482A-D4CB4440083A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

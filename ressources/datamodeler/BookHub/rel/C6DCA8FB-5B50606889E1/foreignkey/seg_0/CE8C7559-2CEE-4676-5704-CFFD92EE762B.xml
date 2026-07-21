@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE8C7559-2CEE-4676-5704-CFFD92EE762B" containerWithKeyObject="CD84B1EC-8BA6-7A74-22E6-7165F08E1CAE" localFKIndex="9220FC10-A638-01C4-0761-ECD6324E9EFB" name="RESERVATION_USER_FK">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 09:35:48 UTC</createdTime>
+<generatorID>EC8B3909-4E27-9414-80C3-863D40E93680</generatorID>
+<ownerDesignName>BookHub</ownerDesignName>
+<referredTableLongName>USER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>237DA62F-B737-5EA6-FC98-48D5B3F2B893</referredTableID>
+<keyObject>DBD86FCB-96BB-3F82-B8F3-9BA03938AA43</keyObject>
+<referredKeyID>DBD86FCB-96BB-3F82-B8F3-9BA03938AA43</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idUser</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="BDC1C9F0-A0A9-C232-6754-0CB00067CDCD">
+<createdBy>Administrateur</createdBy>
+<createdTime>2026-07-21 08:10:53 UTC</createdTime>
+<ownerDesignName>BookHub</ownerDesignName>
+<engineerTo>
+<item key="C6DCA8FB-9EBC-5318-1C64-5B50606889E1" value="true"/>
+</engineerTo>
+<sourcePk>6AD266EA-E951-1C30-4159-0B8EF3C7CF85</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F332096-35C8-BC3A-B658-F2F518BB7737</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0F6A376A-96FB-4D0A-FC5A-6BFE26C8046F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
