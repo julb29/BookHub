@@ -1,0 +1,11 @@
+Gurvan a fait la première version du diagramme de classes et tout le modèle de données : MCD/MLD/MPD -> changement probable
+Julien : Wireframes, a finit le diagramme de cas d'utilisation et le schéma d'archi. logicielle
+Quentin : a finit l'analyse du cahier des charges, première version des diagrammes de séquence
+
+Un trello a été créé et est mis à jour avec les avancements du projet, y-compris lors de la phase d'analyse et conception.
+
+TACHES A FAIRE : Vérifier les documents de conception. Initialiser les projets Angular(Julien) & Spring Boot (Gurvan), 
+gestion de projet/définir les tickets (Quentin)
+Config base de données - JPA (Gurvan)
+Installation de Spring Security avec implémentation JWT (Gurvan)
+Simulation de données bouchon (Quentin)
