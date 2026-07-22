@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D626E552-5729-DA82-E390-35E5F867F959" name="COPY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D626E552-5729-DA82-E390-35E5F867F959" name="COPYBOOK">
 <createdBy>Administrateur</createdBy>
 <createdTime>2026-07-21 07:51:11 UTC</createdTime>
 <ownerDesignName>BookHub</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idCopy" id="B628E443-3EB5-0C79-BD32-DF63E64EAC93">
+<Attribute name="idCopybook" id="B628E443-3EB5-0C79-BD32-DF63E64EAC93">
 <createdBy>Administrateur</createdBy>
 <createdTime>2026-07-21 08:03:31 UTC</createdTime>
 <ownerDesignName>BookHub</ownerDesignName>

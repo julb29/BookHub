@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77B5208F-59B7-8C86-F7A5-F0C564C73988" name="COPY">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77B5208F-59B7-8C86-F7A5-F0C564C73988" name="COPYBOOK">
 <createdBy>Administrateur</createdBy>
 <createdTime>2026-07-21 09:35:48 UTC</createdTime>
 <generatorID>D626E552-5729-DA82-E390-35E5F867F959</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="idCopy" id="72278798-1BA0-733D-E0C4-FEA327E513A2">
+<Column name="idCopybook" id="72278798-1BA0-733D-E0C4-FEA327E513A2">
 <createdBy>Administrateur</createdBy>
 <createdTime>2026-07-21 09:35:48 UTC</createdTime>
 <generatorID>B628E443-3EB5-0C79-BD32-DF63E64EAC93</generatorID>
