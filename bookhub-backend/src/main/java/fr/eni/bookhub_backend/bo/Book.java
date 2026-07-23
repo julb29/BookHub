@@ -17,7 +17,7 @@ public class Book {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private Integer idBook;
 
     @Column(length = 17, unique = true, nullable = false)
     private String isbn;

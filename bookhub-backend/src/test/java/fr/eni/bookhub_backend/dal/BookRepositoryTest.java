@@ -28,7 +28,7 @@ public class BookRepositoryTest {
 
         // Assert
         assertThat(bookInBD).isNotNull();
-        assertThat(bookInBD.getId()).isNotNull();
+        assertThat(bookInBD.getIdBook()).isNotNull();
         assertThat(bookInBD.getAvailability()).isNotNull();
         assertThat(bookInBD.getDescription()).isNotNull();
         assertThat(bookInBD.getCover()).isNotNull();
