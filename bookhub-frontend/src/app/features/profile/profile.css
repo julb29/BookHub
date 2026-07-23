@@ -1,0 +1,39 @@
+/* Centrage de la carte dans le layout principal */
+article {
+  max-width: 1200px;
+  padding: 1.2rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Centrage des titres */
+h2, h3, p {
+  text-align: center;
+}
+
+/* Inputs */
+form input {
+  margin-bottom: 0 !important;
+}
+
+/* Boutons centrés avec espacement UX */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 0.75rem;
+  padding-bottom: 2rem;
+}
+
+.btn-container button {
+  width: auto;
+  margin: 0 !important;
+  font-size: 0.85rem;          /* Police plus petite */
+  padding: 0.4rem 1rem;       /* Réduit la hauteur et la largeur du bouton */
+  border-radius: 6px;          /* (Optionnel) Arrondi plus fin */
+}
+
+.danger-title {
+  color: #c92a2a;
+}
