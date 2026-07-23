@@ -8,7 +8,8 @@ import lombok.*;
 
 @Entity
 @Data
-@RequiredArgsConstructor
+@NoArgsConstructor
+@AllArgsConstructor
 public class Member {
 
     @Id
@@ -33,4 +34,11 @@ public class Member {
     @Column(nullable = false)
     private String role;
 
+    public Member(String email, String password, String name, String firstname, String role) {
+        this.email = email;
+        this.password = password;
+        this.name = name;
+        this.firstname = firstname;
+        this.role = role;
+    }
 }
