@@ -1,0 +1,8 @@
+Julien a fait l'initialisation d'Angular, créé la structure core/shared/features et créé les composants home et login. Difficulté sur la prise en main d'Angular.
+Quentin a désactivé les dépendance pour faire un HelloWorld, modifié application.properties. Difficulté avec la connexion à la BDD.
+Gurvan s'est occupé des tickets Trello, et soutenu Julien.
+
+TACHE A FAIRE
+Gurvan : rafraichir le Trello avec les nouvelles normes et commencer le ticket JWT + Spring Security
+Julien : Faire un footer et heaer dans Angular + Authentification Angular
+Quentin : Etablir la connexion à la bdd et Créer la BO User
