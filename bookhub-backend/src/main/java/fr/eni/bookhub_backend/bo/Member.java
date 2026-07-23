@@ -14,7 +14,7 @@ public class Member {
 
     @Id
     @GeneratedValue
-    private Long idMember;
+    private Integer idMember;
 
     @Column(nullable = false, unique = true, length = 100)
     private String email;
