@@ -1,10 +1,11 @@
 <h1>Bienvenue sur Bookhub, votre bibliothèque communautaire !</h1>
-<form>
-  <label for="login">Email</label>
-  <input type="text" id="login" name="login" >
+
+<form (ngSubmit)="login()">
+  <label for="email">Email</label>
+  <input type="text" id="email" name="email" [(ngModel)]="email">
 
   <label for="password">Mot de passe</label>
-  <input type="password" id="password" name="password">
+  <input type="password" id="password" name="password" [(ngModel)]="password">
 
-  <button >Accéder à votre compte</button>
+  <button type="submit">Accéder à votre compte</button>
 </form>

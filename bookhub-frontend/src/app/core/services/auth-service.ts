@@ -4,23 +4,27 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class AuthService {
-  public login(username: string) {
-    const user = { name: username };
+  // La méthode accepte maintenant email et password
+  public login(email: string, password: string): void {
+    const user = {
+      email: email,
+    };
     localStorage.setItem('user', JSON.stringify(user));
   }
 
-  public logout() {
+  public logout(): void {
     localStorage.removeItem('user');
   }
 
-  public isLogged() {
+  public isLogged(): boolean {
     const user = localStorage.getItem('user');
     return !!user;
   }
 
   public getUsername(): string {
     if (this.isLogged()) {
-      return JSON.parse(localStorage.getItem('user')!).name;
+      const user = JSON.parse(localStorage.getItem('user')!);
+      return user.email;
     }
     return '';
   }
