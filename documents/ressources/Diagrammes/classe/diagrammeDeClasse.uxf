@@ -9,9 +9,9 @@
       <w>210</w>
       <h>200</h>
     </coordinates>
-    <panel_attributes>User
+    <panel_attributes>Member
 --
--idUser: int
+-idMember: int
 -email: String
 -password: String
 -name: String
@@ -55,7 +55,7 @@ toLoan()</panel_attributes>
 -title: String
 -description: String
 -cover: String
--availability: boolean
+-availability: int
 -scoreAvg: float
 --
 updateAvailability()</panel_attributes>
@@ -113,14 +113,14 @@ updateRank()</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>490</x>
-      <y>70</y>
+      <x>1110</x>
+      <y>690</y>
       <w>150</w>
       <h>90</h>
     </coordinates>
-    <panel_attributes>Member
+    <panel_attributes>MemberEmail
 --
--idMember: int
+-idMemberEmail: int
 -email: String</panel_attributes>
     <additional_attributes/>
   </element>
@@ -280,32 +280,5 @@ possède</panel_attributes>
 m1=1
 m2=0..n</panel_attributes>
     <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1000</x>
-      <y>740</y>
-      <w>210</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;interface&gt;&gt;
-LoanService
---
-checkAvailabilityCopy()
-registerLoan()
-sendConfirmationNotification()</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>920</x>
-      <y>790</y>
-      <w>100</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

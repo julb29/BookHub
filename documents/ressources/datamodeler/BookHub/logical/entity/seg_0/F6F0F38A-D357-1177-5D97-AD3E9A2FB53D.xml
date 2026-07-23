@@ -66,7 +66,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idUser" id="9B7F3786-16CA-F119-B18B-F42B512875DE">
+<Attribute name="idMember" id="9B7F3786-16CA-F119-B18B-F42B512875DE">
 <createdBy>Administrateur</createdBy>
 <createdTime>2026-07-21 08:17:46 UTC</createdTime>
 <generatorID>DD6555C3-322C-135C-4EF0-E095127DBA36</generatorID>

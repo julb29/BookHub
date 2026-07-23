@@ -48,7 +48,7 @@
 <colUsage columnID="72278798-1BA0-733D-E0C4-FEA327E513A2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="68DFDE74-A7AC-2D5C-C6F1-DE67A6B4D4F8" name="COPY_BOOK_FK">
+<ind_PK_UK id="68DFDE74-A7AC-2D5C-C6F1-DE67A6B4D4F8" name="COPYBOOK_BOOK_FK">
 <createdBy>Administrateur</createdBy>
 <createdTime>2026-07-21 09:35:48 UTC</createdTime>
 <generatorID>0EE09C78-8033-3836-370A-0C8B6145980E</generatorID>
