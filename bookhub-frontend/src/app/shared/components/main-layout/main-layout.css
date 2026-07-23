@@ -1,0 +1,11 @@
+/* On force l'application à prendre toute la hauteur de l'écran */
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Le contenu principal prend tout l'espace disponible */
+main {
+  flex: 1;
+}

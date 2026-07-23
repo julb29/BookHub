@@ -1,11 +1,19 @@
-<h1>Bienvenue sur Bookhub, votre bibliothèque communautaire !</h1>
+<main class="container login-wrapper">
+  <article>
+    <h2>Bienvenue sur Bookhub</h2>
 
-<form (ngSubmit)="login()">
-  <label for="email">Email</label>
-  <input type="text" id="email" name="email" [(ngModel)]="email">
+    <form (ngSubmit)="login()">
+      <label for="email">
+        Email
+        <input type="text" id="email" name="email" [(ngModel)]="email" required />
+      </label>
 
-  <label for="password">Mot de passe</label>
-  <input type="password" id="password" name="password" [(ngModel)]="password">
+      <label for="password">
+        Mot de passe
+        <input type="password" id="password" name="password" [(ngModel)]="password" required />
+      </label>
 
-  <button type="submit">Accéder à votre compte</button>
-</form>
+      <button type="submit">Accéder à votre compte</button>
+    </form>
+  </article>
+</main>

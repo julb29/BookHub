@@ -1,0 +1,12 @@
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto; /* Sécurité pour coller en bas */
+  border-top: 1px solid var(--pico-muted-border-color); /* Utilise la couleur de bordure de Pico */
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: var(--pico-muted-color); /* Utilise le gris secondaire de Pico */
+}

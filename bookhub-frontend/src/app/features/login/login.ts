@@ -22,14 +22,16 @@ export class Login {
 
   public login(): void {
     if (!this.email || !this.password) {
-      console.log(' Bouton cliqué !', this.email, this.password);
-
+      //console.log(' Bouton cliqué !', this.email, this.password);
       this.errorMessage = 'Veuillez remplir tous les champs.';
       return;
     }
 
     // Appels des deux arguments vers le service
     this.authService.login(this.email, this.password);
+
+    // PROVISOIRE !!! Sauvegarder l'email dans le navigateur pour le Header
+    localStorage.setItem('userEmail', this.email);
 
     // Redirection après enregistrement
     this.router.navigate(['/home']);
