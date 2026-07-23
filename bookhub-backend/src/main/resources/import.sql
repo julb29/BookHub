@@ -1,0 +1,1 @@
+INSERT INTO author(name, firstname) VALUES ('Homere', '');
