@@ -3,6 +3,7 @@ import { Login } from './features/login/login';
 import { Home } from './features/home/home';
 import { MainLayout } from './shared/components/main-layout/main-layout';
 import { authGuard } from './core/guards/auth-guard';
+import { Profile } from './features/profile/profile';
 
 export const routes: Routes = [
   // 1. Page de Login (seule, sans Header/Footer)
@@ -15,7 +16,7 @@ export const routes: Routes = [
     canActivate: [authGuard],
     children: [
       { path: 'home', component: Home },
-      //{ path: 'profile', component: Profile },
+      { path: 'profile', component: Profile },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
     ],
   },
