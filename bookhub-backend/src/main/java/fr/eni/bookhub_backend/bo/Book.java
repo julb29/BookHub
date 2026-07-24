@@ -34,16 +34,8 @@ public class Book {
     @Column(nullable = true)
     private float scoreAvg;
 
-    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "id_author")
     private Author author;
 
-
-    public Book(String isbn, String title, String description, String cover, int availability) {
-        this.isbn = isbn;
-        this.title = title;
-        this.description = description;
-        this.cover = cover;
-        this.availability = availability;
-    }
 }
