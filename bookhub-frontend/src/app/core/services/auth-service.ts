@@ -1,15 +1,17 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
-  // La méthode accepte maintenant email et password
-  public login(email: string, password: string): void {
-    const user = {
-      email: email,
-    };
-    localStorage.setItem('user', JSON.stringify(user));
+  private http = inject(HttpClient);
+  private url = 'http://localhost:8080/api';
+
+  // La méthode renvoie une Observable
+  public login(email: string, password: string): Observable<any> {
+    return this.http.post<any>(`${this.url}/login`, { email, password });
   }
 
   public logout(): void {
