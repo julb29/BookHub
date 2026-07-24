@@ -1,0 +1,1 @@
+INSERT INTO member(id_member, email, password, name, firstname, phone, role) VALUES ('1', 'member1@bookhub.test', '{bcrypt}$2a$10$H4DbMlDEXwJho0aSm/0Oz.eVgNk5OgkAF5c3qvcap6Hs2D9luzWZq', 'GAGNANT', 'Michel', '0011223344', 'USER');
