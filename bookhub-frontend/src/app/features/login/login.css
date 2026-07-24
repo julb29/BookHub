@@ -2,3 +2,10 @@
   max-width: 500px;
   margin-top: 2rem;
 }
+
+/* Ajoute ceci pour centrer le lien */
+.login-wrapper a {
+  display: block;        /* Permet au lien d'occuper la largeur disponible */
+  text-align: center;    /* Centre le texte horizontalement */
+  margin-top: 1.5rem;    /* Ajoute un petit espace sous le bouton */
+}
