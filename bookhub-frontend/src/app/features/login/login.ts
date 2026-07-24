@@ -1,12 +1,12 @@
-import { ChangeDetectorRef, Component } from '@angular/core';
+import { Component } from '@angular/core';
 import { AuthService } from '../../core/services/auth-service';
-import { Router } from '@angular/router';
+import { Router, RouterLink} from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, RouterLink],
   templateUrl: './login.html',
   styleUrl: './login.css',
 })
@@ -35,6 +35,7 @@ export class Login {
 
     // Redirection après enregistrement
     this.router.navigate(['/home']);
-
   }
+
+
 }

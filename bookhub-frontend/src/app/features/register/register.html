@@ -1,0 +1,97 @@
+<main class="container">
+  <article>
+    <header>
+      <h2>Inscription</h2>
+    </header>
+
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+
+      <div class="grid">
+        <div>
+          <label for="firstName">Prénom</label>
+          <input type="text" id="firstName" name="firstName" formControlName="firstName" placeholder="John">
+          @if (registerForm.get('firstName')?.touched || registerForm.get('firstName')?.dirty) {
+            @if (registerForm.get('firstName')?.hasError('required')) {
+              <p class="error">Le prénom est requis !</p>
+            }
+            @if (registerForm.get('firstName')?.hasError('minlength')) {
+              <p class="error">Le prénom doit faire au moins 2 caractères !</p>
+            }
+          }
+        </div>
+
+        <div>
+          <label for="lastName">Nom</label>
+          <input type="text" id="lastName" name="lastName" formControlName="lastName" placeholder="Doe">
+          @if (registerForm.get('lastName')?.touched || registerForm.get('lastName')?.dirty) {
+            @if (registerForm.get('lastName')?.hasError('required')) {
+              <p class="error">Le nom est requis !</p>
+            }
+            @if (registerForm.get('lastName')?.hasError('minlength')) {
+              <p class="error">Le nom doit faire au moins 2 caractères !</p>
+            }
+          }
+        </div>
+      </div>
+
+      <div class="grid">
+        <div>
+          <label for="phone">Téléphone</label>
+          <input type="tel" id="phone" name="phone" formControlName="phone" placeholder="0612345678">
+          @if (registerForm.get('phone')?.touched || registerForm.get('phone')?.dirty) {
+            @if (registerForm.get('phone')?.hasError('required')) {
+              <p class="error">Le téléphone est requis !</p>
+            }
+            @if (registerForm.get('phone')?.hasError('pattern')) {
+              <p class="error">Numéro invalide (10 chiffres attendus) !</p>
+            }
+          }
+        </div>
+
+        <div>
+          <label for="email">Adresse E-mail</label>
+          <input type="email" id="email" name="email" formControlName="email" placeholder="john.doe@example.com">
+          @if (registerForm.get('email')?.touched || registerForm.get('email')?.dirty) {
+            @if (registerForm.get('email')?.hasError('required')) {
+              <p class="error">L'e-mail est requis !</p>
+            }
+            @if (registerForm.get('email')?.hasError('email')) {
+              <p class="error">Veuillez entrer un e-mail valide !</p>
+            }
+          }
+        </div>
+      </div>
+
+      <div class="grid">
+        <div>
+          <label for="password">Mot de passe</label>
+          <input type="password" id="password" name="password" formControlName="password" placeholder="••••••••">
+          @if (registerForm.get('password')?.touched || registerForm.get('password')?.dirty) {
+            @if (registerForm.get('password')?.hasError('required')) {
+              <p class="error">Le mot de passe est requis !</p>
+            }
+            @if (registerForm.get('password')?.hasError('minlength')) {
+              <p class="error">Au moins 8 caractères requis !</p>
+            }
+          }
+        </div>
+
+        <div>
+          <label for="confirmPassword">Confirmer le mot de passe</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" formControlName="confirmPassword" placeholder="••••••••">
+          @if (registerForm.get('confirmPassword')?.touched || registerForm.get('confirmPassword')?.dirty) {
+            @if (registerForm.get('confirmPassword')?.hasError('required')) {
+              <p class="error">La confirmation est requise !</p>
+            }
+            @if (registerForm.get('confirmPassword')?.hasError('passwordMismatch')) {
+              <p class="error">Les mots de passe ne correspondent pas !</p>
+            }
+          }
+        </div>
+      </div>
+
+      <button type="submit">S'inscrire</button>
+
+    </form>
+  </article>
+</main>
