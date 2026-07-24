@@ -1,0 +1,16 @@
+Gurvan : S'est occupé du JTW Spring Boot, SpringSecurity. 
+Route login, JETON OK.
+Julien : Composants login, formulaire d'inscription et consultation profil avec les routes vers login, home si inscrit
+mise en place des AuthGuard et AuthService pour gèrer l'accès aux pages en fonction des droits du compte utilisateur connecté
+Quentin : Connexion BDD, BO + DAL Member, BO + DAL Book, BO + DAL Author avec association ManyToOne sur Book
+
+Gurvan préconise de faire une PR et assigner une (ou plusieurs personnes) à sa vérification. La personne qui a review
+s'ajoute en tant que personne participant au ticket sur Trello. Cette personne se chargera ensuite de passer le ticket 
+de review à done.
+
+TACHES A FAIRE :
+
+Gurvan : BO + DAL Loan, Reservation, Opinion
+Quentin : BO + DAL Category, Copybook
+Julien : Test authentification avec le JWT
+Réaliser les tickets	
