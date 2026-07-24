@@ -1,9 +1,6 @@
 package fr.eni.bookhub_backend.bo;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
@@ -13,7 +10,7 @@ import lombok.*;
 public class Member {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idMember;
 
     @Column(nullable = false, unique = true, length = 100)

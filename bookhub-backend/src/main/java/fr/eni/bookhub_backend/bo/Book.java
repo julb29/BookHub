@@ -1,9 +1,6 @@
 package fr.eni.bookhub_backend.bo;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,7 +13,7 @@ import lombok.NoArgsConstructor;
 public class Book {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idBook;
 
     @Column(length = 17, unique = true, nullable = false)
@@ -34,7 +31,12 @@ public class Book {
     @Column(nullable = false)
     private int availability;
 
+    @Column(nullable = true)
     private float scoreAvg;
+
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_author")
+    private Author author;
 
 
     public Book(String isbn, String title, String description, String cover, int availability) {
