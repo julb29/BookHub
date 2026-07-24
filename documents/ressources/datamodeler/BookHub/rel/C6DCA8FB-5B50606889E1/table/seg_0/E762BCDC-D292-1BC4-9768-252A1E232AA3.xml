@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E762BCDC-D292-1BC4-9768-252A1E232AA3" name="MEMBER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E762BCDC-D292-1BC4-9768-252A1E232AA3" name="MEMBER_EMAIL">
 <createdBy>Administrateur</createdBy>
 <createdTime>2026-07-21 09:35:48 UTC</createdTime>
 <generatorID>9C972B4F-873E-58F6-DA27-8AEFA1C46F42</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="idMember" id="C00E3CFE-3478-0D18-6584-BAEC55D11770">
+<Column name="idMemberEmail" id="C00E3CFE-3478-0D18-6584-BAEC55D11770">
 <createdBy>Administrateur</createdBy>
 <createdTime>2026-07-21 09:35:48 UTC</createdTime>
 <generatorID>DC958505-099A-786F-CFDF-8728FA77357A</generatorID>

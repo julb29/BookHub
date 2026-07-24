@@ -1,0 +1,24 @@
+Iteration 1
+
+S1001 - Initialisation Angular
+S1002 - Initialisation Spring Boot
+S1002b - Test HelloController SpringBoot
+S1003 - Configuration base de donnees (et création de la classe User)
+S1004 - JWT + Spring Security
+S1005 - Developpement authentification [backend]
+S1006 - Développement authentification [frontend]
+S1007 - Création entités et repositories
+S1008 - Création du composant login
+S1009 - Création de la BO User
+S1010 - Couche DAL, gerer l'entité User -- Faire un test d'ajout d'un lecteur (user)
+S1011 - Création de la BO Book
+S1012 - Couche DAL, gerer l'entity Book -- Faire un test d'ajout d'un livre (book)
+S1013 - Création de la BO Author
+S1014 - Création de la BO Category
+S1015 - Relation Book-Author ManyToOne
+S1016 - Relation Book-Category ManyToOne
+S1017 - Création de la BO Copybook
+S1018 - Création de la BO Loan
+S1019 - Création de la BO Reservation
+S1020 - Création de la BO Opinion
+S1021 - Création de la BO Member
