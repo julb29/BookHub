@@ -1,0 +1,111 @@
+<article class="container">
+  <h2>Mon Profil</h2>
+  <p>Consultez et gérez vos informations personnelles.</p>
+
+  <hr />
+
+  <section>
+    <h3>Informations personnelles</h3>
+    <form (ngSubmit)="onUpdateInfo()">
+      <div class="grid">
+        <label for="lastname">
+          Nom
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            [(ngModel)]="user.lastname"
+            required
+          />
+        </label>
+
+        <label for="firstname">
+          Prénom
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            [(ngModel)]="user.firstname"
+            required
+          />
+        </label>
+      </div>
+
+      <div class="grid">
+        <label for="phone">
+          Téléphone
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            [(ngModel)]="user.phone"
+            required
+          />
+        </label>
+
+        <label for="email">
+          Email (Non modifiable)
+          <input
+            type="email"
+            id="email"
+            name="email"
+            [value]="user.email"
+            disabled
+          />
+        </label>
+      </div>
+
+      <div class="btn-container">
+        <button type="submit">Enregistrer les modifications</button>
+      </div>
+    </form>
+  </section>
+
+  <hr />
+
+  <section>
+    <h3>Sécurité</h3>
+    <form (ngSubmit)="onChangePassword()">
+      <div class="grid">
+        <label for="currentPassword">
+          Mot de passe actuel
+          <input
+            type="password"
+            id="currentPassword"
+            name="currentPassword"
+            [(ngModel)]="passwords.current"
+            required
+          />
+        </label>
+
+        <label for="newPassword">
+          Nouveau mot de passe
+          <input
+            type="password"
+            id="newPassword"
+            name="newPassword"
+            [(ngModel)]="passwords.new"
+            required
+          />
+        </label>
+      </div>
+
+      <div class="btn-container">
+        <button type="submit" class="secondary">Changer le mot de passe</button>
+      </div>
+    </form>
+  </section>
+
+  <hr />
+
+  <section>
+    <h3 class="danger-title">Gestion des données (RGPD)</h3>
+    <p>La suppression de votre compte est définitive et effacera toutes vos données personnelles.</p>
+
+    <div class="btn-container">
+      <button type="button" class="contrast" (click)="onDeleteAccount()">
+        Supprimer mon compte
+      </button>
+    </div>
+  </section>
+</article>
