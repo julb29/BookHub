@@ -31,10 +31,11 @@ public class Book {
     @Column(nullable = false)
     private int availability;
 
+    @Column(nullable = true)
     private float scoreAvg;
 
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JoinColumn(name = "author_id_author")
+    @JoinColumn(name = "id_author")
     private Author author;
 
 

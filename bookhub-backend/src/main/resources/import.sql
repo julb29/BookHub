@@ -1,1 +1,2 @@
 INSERT INTO author(name, firstname) VALUES ('Homere', '');
+INSERT INTO book(availability, isbn, cover, title, description, id_author) VALUES (3, '333-3333333', 'none', 'L''Odyssée', 'C''est l''histoire de Ulysse', 1 );
